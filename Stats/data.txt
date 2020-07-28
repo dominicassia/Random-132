@@ -1,0 +1,14 @@
+// CmpSc132, Summer I 2020
+// Lab 5: Baseball Stats for the Lab
+
+// Name
+// AB, Hits, HR, SO, Walks
+Jimmy Rollins
+   3,    1,   1,  2,   1
+   5,    2,   0,  1,   2
+   3,    1,   1,  1,   1
+   4,    4,   1,  0,   0
+   5,    3,   2,  2,   0
+
+// Calculate On-Base Pct = (Hits + Walks) / (AB + Walks)
+// Calculate Batting Average: Hits / AB
