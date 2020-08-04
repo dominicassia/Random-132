@@ -16,9 +16,26 @@ import Final_NewPassword as password
 
 def main():
 
-    # Create menu of programs
+    # Menu of programs
+    print('\nChose an option to select from the list below:\n\t1 - Math Operations\n\t2 - Pythagreon Theorem\n\t3 - Quadratic Formula\n\t4 - Baseball Statistics\n\t5 - New Password')
 
-    pass
+    try:
+        temp = int(input('> '))
+
+
+        if temp > 5 or temp <= 0:
+
+            # Display Error, Restart
+            print('\n** The selection is not an option **')
+            main()
+
+    except TypeError or ValueError:
+
+        # Display Error, Restart
+        print('\n** Input must be an integer **')
+        main()
+
+
 
 
 # Call main
