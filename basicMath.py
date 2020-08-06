@@ -44,7 +44,6 @@ def quadFormula():
     if h <= 0:
         print('Error. The first solution is undefined. There is a negative in the radical.')
 
-
         return lst
 
     # Check to see if there are zeros in the denominator
