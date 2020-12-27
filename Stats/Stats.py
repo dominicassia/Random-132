@@ -1,4 +1,4 @@
-# CMPSC 132 || Lab 5 || Dominic Assia
+# CMPSC 132 || Lab 5 || Dominic Assia & Omer Canca
 
 def getFileName(path):
 
